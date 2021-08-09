@@ -62,11 +62,21 @@ header#header {
 
 /* main#main 시작 */
 
-/* nav#gnb 시작 */
+main#main {
+  position: relative;
+  height: 587px;
+  /* 적용2) 푸터영역 위치를 아래로 고정하기 위해 사용함. */
+}
 
+/* nav#gnb 시작 */
 nav#gnb {
+  width: 140px;
+  height: 587px;
   padding: 16px;
   background-color: #a5b29b;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 #gnb li {
@@ -76,6 +86,19 @@ nav#gnb {
 /* nav#gnb 끝 */
 
 /* div#contents 시작 */
+
+/* 적용1 */
+/* div#contents {
+  margin-left: 140px;
+} */
+/* 적용1 */
+
+div#contents {
+  width: 458px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 div#contents h2 {
   font-size: 22px;
