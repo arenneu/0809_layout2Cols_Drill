@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* reset 시작 */
+* {
+  color: #222;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #111;
+}
+a:hover {
+  color: #41644b;
+}
+/* reset 끝 */
+
+/* div#wrap 시작 */
+div#wrap {
+  margin: 0 auto;
+  width: 600px;
+  border: 1px solid #999;
+}
+
+/* div#wrap 끝 */
+/* header#header 시작 */
+
+header#header {
+  background-color: #002722;
+  padding: 6px;
+}
+
+#header h1 {
+  color: #bfc043;
+  text-align: center;
+  font-size: 28px;
+  transform: scaleX(0.9);
+}
+
+#header h1 span:first-child {
+  color: #e2e3aa;
+  font-size: 72px;
+}
+
+#header h1 span:nth-child(2) {
+  color: #8d9a0a;
+  font-size: 38px;
+}
+
+#header h1 span:last-child {
+  color: #a1ac95;
+  font-size: 52px;
+}
+
+/* header#header 끝 */
+
+/* main#main 시작 */
+
+/* nav#gnb 시작 */
+
+nav#gnb {
+  width: 136px;
+  height: 566px;
+  padding: 16px;
+  background-color: #a5b29b;
+  float: left;
+}
+
+#gnb li {
+  line-height: 26px;
+}
+
+/* nav#gnb 끝 */
+
+/* div#contents 시작 */
+
+div#contents {
+  width: 462px;
+  float: right;
+}
+
+div#contents h2 {
+  font-size: 22px;
+  padding: 8px;
+  font-weight: normal;
+  padding-left: 20px;
+  font-family: 궁서체;
+  color: #7c7336;
+  background-color: #3e1500;
+}
+
+div#contents p {
+  text-align: justify;
+  padding: 16px;
+}
+
+/* div#contents 끝 */
+/* main#main 끝 */
+/* footer#footer 시작 */
+
+footer#footer {
+  background-color: #84917e;
+  font-size: 14px;
+  padding: 12px;
+  clear: both;
+}
+
+/* footer#footer 끝 */
