@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>float 2열 레이아웃</title>
+    <title>Display : table 2열 레이아웃</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -17,7 +17,10 @@
             </h1>
         </header>
         <!-- header#header -->
-        <nav id="gnb">
+        <main id="main" class="dispTbl">
+            <!-- display:table -->
+            <div class="dispTblRow">
+        <nav id="gnb" class="dispTblCell">
             <ul id="mainMenu">
                 <li id="mainLi"><a href="#">그림의 작가</a></li>
                 <li id="mainLi"><a href="#">그림의 시대</a></li>
@@ -27,7 +30,7 @@
             </ul>
         </nav>
         <!-- nav#gnb -->
-        <div id="contents">
+        <div id="contents" class="dispTblCell">
             <article>
                 <header class="articleTitle">
                     <h2>승운용호도</h2>
@@ -47,9 +50,12 @@
                 </p>
             </article>
         </div>
+    </div>
+</main>
         <footer id="footer">
             Copyright &copy; Allright Reserved.
         </footer>
+        <!-- footer#footer -->
     </div>
 </body>
 </html>
